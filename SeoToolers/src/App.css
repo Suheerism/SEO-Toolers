@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #19B3E2;
+  --container-color: #0D3347;
+  --heading: #fff;
+  --text: #fff;
+  --blue-text: #66C4EE;
+  --button: #068DC7;
+  --button-hover: #107ba9;
+  --link: #fff;
+  --dull-link: #b1b1b1;
+  --white: #fff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('bg-img.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-attachment: fixed;
+  color: var(--white);
+}
+
+
+/* --------- HOME --------- */
+
+.home-container {
+  margin-top: 5rem;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: rgba(57, 96, 127, 0.49);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+  border: 1px solid rgba(57, 96, 127, 1);
+}
+
+
+/* --------- NAVBAR --------- */
+.navbar {
+  background: transparent;
+  border-bottom: 1px solid #19b3e2;
+}
+
+.navbar-brand img {
+  width: 45px;
+  height: 45px;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  margin-inline: 1rem;
+  color: #fff;
+}
+
+.nav-item:hover {
+  border-radius: 6px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:focus {
+  color: #fff;
+}
+
+.nav-link:hover,
+.dropdown-toggle:hover {
+  color: #19b3e2;
+  background: transparent;
+}
+
+.dropdown-toggle {
+  color: #fff;
+  font-size: 1.2rem;
+  background: transparent;
+  border: none;
+  padding-top: .5rem;
+}
+
+.dropdown-item {
+  font-size: 1.1rem;
+}
+
+.dropdown-item:hover {
+  color: #f8f8f8;
+  background: #19b3e2;
+}
+
+
+/* ---------- FOOTER ----------  */
+
+#footer {
+  margin-top: 6rem;
+  color: var(--white);
+  background-color: rgb(4, 34, 48);
+  opacity: .9;
+  border-radius: 8px;
+  box-shadow: rgba(155, 196, 250, 0.885) 0px 5px 15px;
+}
+
+#footer h6 {
+  font-size: 1.25rem;
+}
+
+#footer p {
+  color: var(--dull-link);
+}
+
+#footer p:hover {
+  color: var(--white);
+}
+
+.copyright {
+  border-top: 1px solid var(--primary);
+}
+
+
+/* ---------- HOME ----------  */
+
+.main-cont {
+  padding-block: 6rem;
+  height: 60vh;
+}
+
+.home-left {
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-heading {
+  color: var(--heading);
+  font-size: 3rem;
+}
+
+.home-text {
+  color: var(--text);
+  font-size: 1.1rem;
+}
